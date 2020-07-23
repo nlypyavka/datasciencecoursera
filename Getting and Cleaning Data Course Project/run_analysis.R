@@ -46,7 +46,7 @@ colnames(train.subjects) <- c("subject.num")
 
 train.all <- cbind(train.subjects, train.activities, train.data)
 
-#5 train data
+#5 test data
 list.files("./UCI HAR Dataset")
 list.files("./UCI HAR Dataset/test")
 test.data <- fread(file.path(path, "UCI HAR Dataset/test/X_test.txt"))[,..features.in.num]
