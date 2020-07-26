@@ -2,17 +2,17 @@
 by nlypyavka  
 July 26, 2020  
 
-##Project goal
+## Project goal
 As per project instructions:  
 *The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.*
 
 
-##Input Dataset
+## Input Dataset
 The [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) used in this project comes from the accelerometers on a Samsung Galaxy S smartphone from [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)   
 The data is spread out across a few different files and must be merged, tidied and summarized to get the output tidy dataset.
 
 
-##Submitted files:
+## Submitted files:
 * 'README.Rmd'
 
 - 'CodeBook.Rmd' a code book that describes the variables, the data, and transformations and work performed to clean up the data
@@ -40,7 +40,7 @@ The data is spread out across a few different files and must be merged, tidied a
     8) mean - averaged data on means for each "participant-activity" combination
     9) std - averaged data on standard deviations for each "participant-activity" combination
 
-##Review Criteria:
+## Review Criteria:
 1.	The submitted data set is tidy.
 2.	The Github repo contains the required scripts.
 3.	GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
