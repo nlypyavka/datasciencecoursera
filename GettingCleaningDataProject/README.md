@@ -13,9 +13,9 @@ The data is spread out across a few different files and must be merged, tidied a
 
 
 ## Submitted files:
-* 'README.Rmd'
+* 'README.md'
 
-- 'CodeBook.Rmd' a code book that describes the variables, the data, and transformations and work performed to clean up the data
+- 'CodeBook.md' a code book that describes the variables, the data, and transformations and work performed to clean up the data
 
 - 'run_analysis.R' performs 5-step data preparation according to the course project assignment:  
     1. Merges the training and the test sets to create one data set.  
