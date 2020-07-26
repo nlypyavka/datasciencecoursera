@@ -45,7 +45,7 @@ The data is spread out across a few different files:
 | Variable | Comments |
 |------:|:-------------------------|
 | SubjectNum | an identifier of the subject who carried out the experiment <br> factor variable with the levels 1 to 30  
-| Activity | name of activity subject performed <br> factor variable <br>1 LAYING <br> 2 SITTING <br>3 STANDING <br>4 WALKING<br>5 WALKING_DOWNSTAIRS <br>6 WALKING_UPSTAIRS)|
+| Activity | name of activity subject performed <br> factor variable <br>1 LAYING <br> 2 SITTING <br>3 STANDING <br>4 WALKING<br>5 WALKING_DOWNSTAIRS <br>6 WALKING_UPSTAIRS|
 | signal |	whether it is time or frequency of signals <br> factor variable <br>1 time <br>2 frequency (derived) |
 | sourceForce	| whether the signal is attributed to Body or Gravity <br> factor variable <br>1 Body <br>2 Gravity |
 | device | from which device the data is obtained <br> factor variable <br>1 Accelerometer <br>2 Gyroscope |
