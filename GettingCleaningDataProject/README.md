@@ -1,9 +1,6 @@
----
-title: "'Getting and Cleaning Data' Course Project"
-author: "by nlypyavka"
-date: "July 26, 2020"
-output: html_document
----
+# 'Getting and Cleaning Data' Course Project  
+by nlypyavka  
+July 26, 2020  
 
 ##Project goal
 As per project instructions:  
