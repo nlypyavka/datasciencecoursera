@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Project codebook  
-by nlypyavka
+by nlypyavka  
 Below are the descriptions of data inputs, performed transformations, and resulting datasets.
 
 ## Input Dataset
