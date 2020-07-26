@@ -1,11 +1,11 @@
-title: "Codebook"
-author: "nlypyavka"
-date: "July 26, 2020"
+title: "Codebook"  
+author: "nlypyavka"  
+date: "July 26, 2020"  
 
 # Getting and Cleaning Data Project codebook
 Below are the descriptions of data inputs, performed transformations, and resulting datasets.
 
-##Input Dataset
+## Input Dataset
 The [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) used in this project comes from the accelerometers on a Samsung Galaxy S smartphone from [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)   
 
 
@@ -23,7 +23,7 @@ The data is spread out across a few different files:
 	  i. “activity_labels.txt” – full list of captured activities  
 	  ii. “features.txt” – full list of measurements taken  
 
-##Transformations
+## Transformations
 1. Merge the training and the test sets to create one data set.  
     - Use download.file() together with unzip() function to download the zip file from website to working directory on the computer.  
     - Use read.table() function to read "X_train.txt", "y_train", "subject_train"; use cbind() to create one dataset on train data (train.all).  
@@ -44,7 +44,7 @@ The data is spread out across a few different files:
     - Afterwards use gather(), separate(), and spread() functions from dplyr package to tidy the data. 
     - Apply write.table() to write the final data to txt format.
 
-##Variables
+## Variables
 | Variable | Comments |
 |------:|:-------------------------|
 | SubjectNum | an identifier of the subject who carried out the experiment <br> factor variable with the levels 1 to 30  
