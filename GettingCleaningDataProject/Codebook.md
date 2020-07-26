@@ -2,7 +2,7 @@ title: "Codebook"
 author: "nlypyavka"
 date: "July 26, 2020"
 
-#Getting and Cleaning Data Project codebook
+# Getting and Cleaning Data Project codebook
 Below are the descriptions of data inputs, performed transformations, and resulting datasets.
 
 ##Input Dataset
